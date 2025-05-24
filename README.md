@@ -16,3 +16,6 @@ To install, simply run this command in your terminal:
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/neuralcurtis/conflaunch/main/install-launcher.sh)"
+```
+The script will automatically install conflaunch and all the dependencies needed for your system and add it to your apps menu.
+Note: as of now, only **Debian**, **Fedora** and **Arch** based distros are supported. You will need to add the file paths manually.
