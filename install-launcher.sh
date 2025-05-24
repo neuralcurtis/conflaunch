@@ -33,15 +33,15 @@ esac
 mkdir -p ~/scripts
 
 # === Download the launcher script ===
-curl -L https://raw.githubusercontent.com/neuralcurtis/conflaunch/main/launch.py -o ~/scripts/launch.py
-chmod +x ~/scripts/launch.py
+curl -L https://raw.githubusercontent.com/neuralcurtis/conflaunch/main/lauch.py -o ~/scripts/lauch.py
+chmod +x ~/scripts/lauch.py
 
 # === Create .desktop launcher ===
 mkdir -p ~/.local/share/applications
 cat > ~/.local/share/applications/conflaunch.desktop <<EOF
 [Desktop Entry]
 Name=Config Launcher
-Exec=python3 /home/$USER/scripts/launch.py
+Exec=python3 /home/$USER/scripts/lauch.py
 Type=Application
 Terminal=false
 Categories=Utility;
